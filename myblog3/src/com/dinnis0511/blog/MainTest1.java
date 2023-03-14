@@ -16,17 +16,17 @@ public class MainTest1 {
 //		System.out.println(result);
 		
 		// 로그인 기능
-//		String result = controller.requestSignIn("이춘향", "1234");
+//		String result = controller.requestSignIn("이춘향", "1348");
 //		System.out.println(result);
 		
-		// 회원 가입 기능
+//		// 회원 가입 기능
 //		UserDto dto = new UserDto("강지", "6589", "j@naver.com", "서울 강남구");
 //		String result = controller.requestSignUp(dto);
 //		System.out.println(result);
 		
 		// 회원 탈퇴 기능
-//		String result = controller.requestDeleteUserInfo("강지", "6589");
-//		System.out.println(result);
+		String result = controller.requestDeleteUserInfo("강지", "6589");
+		System.out.println(result);
 		
 		// 회원 정보 수정 기능
 //		UserDto dto = new UserDto("이춘향", "1348", "d@naver.com", "서울시 강남구");
@@ -34,10 +34,10 @@ public class MainTest1 {
 //		System.out.println(result);
 		
 		// 전체 조회 해보기
-		ArrayList<UserDto> list = controller.requestSelectAll();
-		for (int i = 0; i < list.size(); i++) {
-			System.out.println(list.get(i));
-		}
+//		ArrayList<UserDto> list = controller.requestSelectAll();
+//		for (int i = 0; i < list.size(); i++) {
+//			System.out.println(list.get(i));
+//		}
 		
 	} // end of main
 	
